@@ -1,0 +1,36 @@
+site_name: E.M. Maria Fernandes Saraiva
+site_dir: /var/www/html/em-parnamirim/maria-fernandes-saraiva
+site_url: http://turmas.oulu.ifrn.edu.br/em-parnamirim/maria-fernandes-saraiva/
+site_author: Secretaria de educação do município de Parnamirim
+site_description: >-
+  Site da Escola Municipal Maria Fernandes Saraiva, 
+  Parnamirim, Rio Grande do Norte, Brasil
+
+# Repository
+repo_url: https://gitlab.com/josalab/portal-maria-fernandes-saraiva
+edit_uri: "edit/master/docs"
+
+# Copyright
+copyright: Copyright &copy; 2019 - 2021 Maria Fernandes Saraiva
+
+# Configuration
+theme:
+  favicon: imagens/favicon.ico
+  logo: imagens/favicon.ico
+  name: material
+  language: pt
+
+nav:
+  - Início: index.md
+  - Pais: pais.md
+  - Professores: professores.md
+  - Turmas:
+    - 1º ano: turmas/1o-ano.md
+    - 2º ano: turmas/2o-ano.md
+    - 3º ano: turmas/3o-ano.md
+    - 4º ano: turmas/4o-ano.md
+    - 5º ano: turmas/5o-ano.md
+    - 6º ano: turmas/6o-ano.md
+    - 7º ano: turmas/7o-ano.md
+    - 8º ano: turmas/8o-ano.md
+    - 9º ano: turmas/9o-ano.md
